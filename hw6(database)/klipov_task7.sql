@@ -1,0 +1,3 @@
+INSERT INTO city
+VALUES (DEFAULT, 'Hadiach', 100, now())
+RETURNING *;
